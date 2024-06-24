@@ -1,0 +1,2 @@
+[2024-06-24 00:36:50,647] root - 6 - INFO - Hellow worlds
+[2024-06-24 00:36:50,647] root - 11 - INFO - Error occured in python script [app.py] line number [9] error message [unsupported operand type(s) for +: 'int' and 'str']
