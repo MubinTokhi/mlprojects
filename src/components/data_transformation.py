@@ -107,6 +107,13 @@ class DataTransformation:
                 input_feature_train_arr, np.array(target_feature_train_df)
             ]
             
+            """ 
+            np.c_: This is a shorthand for concatenating arrays along the second axis (columns). It horizontally stacks the input features and the target variable.
+            input_feature_train_arr: The transformed training input features.
+            np.array(target_feature_train_df): The target variable (e.g., "math_score") for the training set, converted to a NumPy array.
+            
+            """
+            
             test_arr = np.c_[
                 input_feature_test_arr, np.array(target_feature_test_df)
             ]

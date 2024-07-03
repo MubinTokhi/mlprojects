@@ -1,8 +1,0 @@
-[2024-06-29 22:24:33,595] root - 20 - INFO - Entered the Data ingestion method
-[2024-06-29 22:24:33,598] root - 23 - INFO - Read the dataset as dataframe
-[2024-06-29 22:24:33,601] root - 29 - INFO - Train test split initaited
-[2024-06-29 22:24:33,605] root - 39 - INFO - Ingestion of the data is completed successfully
-[2024-06-29 22:24:33,608] root - 83 - INFO -  Reading train adn test data completed
-[2024-06-29 22:24:33,608] root - 85 - INFO - obtaining preprocessing object
-[2024-06-29 22:24:33,608] root - 62 - INFO - Numerical columns Standered scaling completed
-[2024-06-29 22:24:33,610] root - 63 - INFO - Categoricale Columns encoding completed
