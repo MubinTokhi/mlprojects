@@ -1,0 +1,7 @@
+[2024-07-05 19:36:58,193] werkzeug - 97 - WARNING -  * Debugger is active!
+[2024-07-05 19:36:58,196] werkzeug - 97 - INFO -  * Debugger PIN: 112-435-112
+[2024-07-05 19:36:59,925] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 19:36:59] "GET / HTTP/1.1" 200 -
+[2024-07-05 19:37:00,538] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 19:37:00] "GET / HTTP/1.1" 200 -
+[2024-07-05 19:37:03,593] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 19:37:03] "GET / HTTP/1.1" 200 -
+[2024-07-05 19:37:37,540] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 19:37:37] "GET / HTTP/1.1" 200 -
+[2024-07-05 19:38:30,257] werkzeug - 97 - INFO -  * Detected change in 'C:\\Users\\mobin\\DATASIENCE\\INEURONE PROJECTS\\mlprojects\\app.py', reloading

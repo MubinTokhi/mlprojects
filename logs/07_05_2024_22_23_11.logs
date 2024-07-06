@@ -1,0 +1,10 @@
+[2024-07-05 23:22:12,771] werkzeug - 97 - WARNING -  * Debugger is active!
+[2024-07-05 23:22:12,773] werkzeug - 97 - INFO -  * Debugger PIN: 112-435-112
+[2024-07-05 23:22:22,599] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:22:22] "GET /predictdata HTTP/1.1" 200 -
+[2024-07-05 23:22:32,083] root - 47 - INFO - Entered to get_data_as_frame in Prediction Pipeline in Custome Data
+[2024-07-05 23:22:32,123] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:22:32] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-07-05 23:22:32,145] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:22:32] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-07-05 23:22:32,463] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:22:32] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-07-05 23:22:32,790] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:22:32] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-07-05 23:22:33,036] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:22:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-07-05 23:22:51,254] werkzeug - 97 - INFO -  * Detected change in 'C:\\Users\\mobin\\DATASIENCE\\INEURONE PROJECTS\\mlprojects\\src\\pipeline\\predict_pipeline.py', reloading

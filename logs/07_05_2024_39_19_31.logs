@@ -1,0 +1,4 @@
+[2024-07-05 19:39:33,048] werkzeug - 97 - WARNING -  * Debugger is active!
+[2024-07-05 19:39:33,051] werkzeug - 97 - INFO -  * Debugger PIN: 112-435-112
+[2024-07-05 19:39:39,521] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 19:39:39] "GET / HTTP/1.1" 200 -
+[2024-07-05 19:39:39,559] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 19:39:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

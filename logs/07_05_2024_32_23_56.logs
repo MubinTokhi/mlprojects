@@ -1,0 +1,6 @@
+[2024-07-05 23:32:58,051] werkzeug - 97 - WARNING -  * Debugger is active!
+[2024-07-05 23:32:58,055] werkzeug - 97 - INFO -  * Debugger PIN: 112-435-112
+[2024-07-05 23:33:02,960] root - 47 - INFO - Entered to get_data_as_frame in Prediction Pipeline in Custome Data
+[2024-07-05 23:33:02,978] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:33:02] "POST /predictdata HTTP/1.1" 200 -
+[2024-07-05 23:33:37,943] root - 47 - INFO - Entered to get_data_as_frame in Prediction Pipeline in Custome Data
+[2024-07-05 23:33:37,954] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:33:37] "POST /predictdata HTTP/1.1" 200 -

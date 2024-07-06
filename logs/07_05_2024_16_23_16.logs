@@ -1,0 +1,33 @@
+[2024-07-05 23:16:17,709] werkzeug - 97 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.15:5000
+[2024-07-05 23:16:17,709] werkzeug - 97 - INFO - [33mPress CTRL+C to quit[0m
+[2024-07-05 23:16:27,877] app - 838 - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 29, in predict_datapoint
+    data=CustomeData(
+TypeError: __init__() got an unexpected keyword argument 'race_ethnicity'
+[2024-07-05 23:16:27,881] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:16:27] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-07-05 23:16:35,021] app - 838 - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\mobin\DATASIENCE\INEURONE PROJECTS\mlprojects\mlprojects\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 29, in predict_datapoint
+    data=CustomeData(
+TypeError: __init__() got an unexpected keyword argument 'race_ethnicity'
+[2024-07-05 23:16:35,022] werkzeug - 97 - INFO - 127.0.0.1 - - [05/Jul/2024 23:16:35] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
